@@ -17,7 +17,9 @@ a {
   color: black;
 }
 
-p {
+.triptext {
   background-color: #fa923f;
+  padding: 3px;
+}
 
-/* Is refering to all div */
+/* Is refering to all div. you can name the div then all you need is a period and the name of the div to manipulate style within a portion of the page */
