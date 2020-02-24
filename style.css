@@ -5,6 +5,8 @@
 
 html{
 background-color: rgb(236, 236, 236);
+font-family: 'Barlow', sans-serif;
+font-size: 100%;
 }
 
 body {
@@ -14,13 +16,13 @@ body {
 a {
   text-decoration: none;
   color: black;
-  background-color: red;
 }
 
 /*header */
-
 .fixed-bar {
   height: 70px;
+  font-size: 2em;
+  /* font size of em depends on the font size of the element. Default size is 16px / rem is the root element*/
 }
 
 .page-title {
@@ -33,6 +35,8 @@ a {
   padding: 10px 0; 
   margin: 0px;
   text-align: center;
+  font-size: 16px;
+  font-size: 2rem;
 }
 
 /* nav , li refers to list inside*/
@@ -41,10 +45,12 @@ a {
   padding: 0;
 }
 
-.navigation li, .navigation a {
+.navigation li {
   display: inline-block;
-  width: 70px;
+  width: 20%;
   background-color:rgb(177,177,174);
+  font-size: 16px;
+  font-size: 1.3rem;
 }
 
 /* main */
@@ -60,6 +66,8 @@ a {
   text-align: center;
   margin: 0px;
   width: 50%;
+  font-size: 16px;
+  font-size: 1rem;
 }
 
 .trip-images {
@@ -71,7 +79,6 @@ flex-wrap: wrap;
   width: 50%;
   min-width: 200px;
   /* you need a min width to not go to small */
-  max-width: 500px;
   height: 100%;
 }
 
@@ -82,6 +89,9 @@ flex-wrap: wrap;
   color: white;
   text-align: center;
   margin: 0;
+  font-size: 16px;
+  font-size: 1rem;
+
 }
 /* footer */
 .review-clients {
@@ -101,6 +111,9 @@ width: 120px;
 .review-clients p {
   width: 350px;
   text-align: center;
+  font-size: 16px;
+  font-size: 1rem;
+
 }
 
 
