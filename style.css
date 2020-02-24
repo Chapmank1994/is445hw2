@@ -1,5 +1,6 @@
 /* selector /Header {property:value;} */
 /* you can style all within h1 */
+/* Display function allows for the use of ordering the display when you are in css */
 
 html{
 background-color: rgb(236, 236, 236);
@@ -12,6 +13,7 @@ body {
 a {
   text-decoration: none;
   color: black;
+  background-color: red;
 }
 
 /*header */
@@ -27,29 +29,46 @@ a {
   height: 40px;
   background-color: #521751;
   color: white;
-  padding: 10px; 
+  padding: 10px 0; 
   margin: 0px;
   text-align: center;
 }
 
-/* nav */
+/* nav , li refers to list inside*/
+.navigation{
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li, .navigation a {
+  display: inline-block;
+  width: 70px;
+  background-color:rgb(177,177,174);
+}
 
 /* main */
 .trip-text {
   background-color: #fa923f;
-  padding: 10px;
+  padding: 0;
 }
 
 .trip-text p {
   background-color: white;
   margin: 0px;
+  display: inline-block;
+  width: 50%;
 }
 
-/* footer */
 .feedback {
   background-color: #521751;
   color: white;
   text-align: center;
 }
+/* footer */
+.review-clients p, .review-clients img {
+display: inline;
+vertical-align: middle;
 
-/* Is refering to all div. you can name the div then all you need is a period and the name of the div to manipulate style within a portion of the page */
+}
+
+
