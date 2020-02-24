@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>Our First Webpage</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- How to pit a image in the tab. rel is the name of what it is amd href is where , either a link or a file -->
   </head>
   <body>
+    <!--<p>I should not be displayed</p>-->
     <header><h1>Mike's World</h1></header>
     <nav>
         <ul>
@@ -16,23 +19,27 @@
 
         </ul>
     </nav>
-  </body> 
-  </html>
-
-    
     <main>
-      <span>My SF City Trip</span>
-      <span>The California Landscape</span>
-          <!-- In line elements combine in the same line. Span is a inline element -->
+      <ul>
+          <li><p>My SF City Trip</p><div><img src="images/sf.png" alt="Image of the San Francisco streets"></div></li>
+           <!-- Source of image/ Decribes image. Wraping images around divs help to format later -->
+          <li><p>The California Landscape</p><div><img src="images/california.png" alt="Image of the California streets"></div></li>
+      </ul>
       
-      <p>Image 1</p>
-      <p>Image 2</p>
+        <!-- In line elements combine in the same line. Span is a inline element -->
+      <p>
+        </p>
       <p>Do people like my Page</p>
     </main>
     <footer>
-      <p>Image Max - Awesome page, great work, keep it up!</p>
-      <p>Image Menu - Looks really nice, beautiful pictures!</p>
+      <div>
+          <img src="images/image-max.png" alt="Image of Max">
+          <span> Max - Awesome page, great work, keep it up!</span>
+      </div>
+      <div>
+          <img src="images/image-manu.png" alt="Image of Manu">
+          <span> Manu - Looks really nice, beautiful pictures!</span>
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>
