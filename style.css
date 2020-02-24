@@ -64,10 +64,14 @@ a {
 
 .trip-images {
 display: flex;
+flex-wrap: wrap;
 }
 
 .trip-images img {
   width: 50%;
+  min-width: 200px;
+  /* you need a min width to not go to small */
+  max-width: 500px;
   height: 100%;
 }
 
