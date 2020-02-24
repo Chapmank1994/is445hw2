@@ -35,7 +35,7 @@ a {
   padding: 10px 0; 
   margin: 0px;
   text-align: center;
-  font-size: 16px;
+  font-size: 32px;
   font-size: 2rem;
 }
 
@@ -50,24 +50,12 @@ a {
   width: 20%;
   background-color:rgb(177,177,174);
   font-size: 16px;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
 }
 
 /* main */
-.trip-text {
-  background-color: #fa923f;
-  padding: 0;
-  display: flex;
-}
-
-.trip-text p {
-  background-color: #521751;
-  color: white;
-  text-align: center;
-  margin: 0px;
-  width: 50%;
-  font-size: 16px;
-  font-size: 1rem;
+.trip-text{
+display: none;
 }
 
 .trip-images {
@@ -76,8 +64,7 @@ flex-wrap: wrap;
 }
 
 .trip-images img {
-  width: 50%;
-  min-width: 200px;
+  width: 100;
   /* you need a min width to not go to small */
   height: 100%;
 }
@@ -116,5 +103,29 @@ width: 120px;
 
 }
 
+@media (min-width: 400px;){
+  .navigation li {
+    font-size: 1.2rem;
+  }
+}
+/* from whatever medium this website is tailored for it. How to build for mobile*/
+@media (min-width: 700px;){
+  .trip-images img {
+    width: 50%;
+  }
+  .trip-text {
+    background-color: #fa923f;
+    padding: 0;
+    display: flex;
+  }
 
-
+  .trip-text p {
+    background-color: #521751;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    width: 50%;
+    font-size: 16px;
+    font-size: 1rem;
+  } 
+}
